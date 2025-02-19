@@ -3,6 +3,7 @@
 #include "spi.dtsi"
 #include "pinctrl.dtsi"
 #include "ysl-pinctrl.dtsi"
+#include "gpu.dtsi"
 #include "android.dtsi"
 #include "haptic.dtsi"
 #include "audio.dtsi"
