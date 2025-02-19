@@ -11,33 +11,33 @@
  * GNU General Public License for more details.
  */
 
-&gpu_bw_tbl: gpu-bw-tbl {
-		compatible = "operating-points-v2";
-		opp-0   { opp-hz = /bits/ 64 < 0 >;     }; /* OFF */
+&gpu_bw_tbl {
+	compatible = "operating-points-v2";
+	opp-0   { opp-hz = /bits/ 64 < 0 >;     }; /* OFF */
 
-		opp-211 { opp-hz = /bits/ 64 < 1611 >;  }; /*  1. 211 MHz */
+	opp-211 { opp-hz = /bits/ 64 < 1611 >;  }; /*  1. 211 MHz */
 
-		opp-278 { opp-hz = /bits/ 64 < 2124 >;  }; /*  2. 278 MHz */
+	opp-278 { opp-hz = /bits/ 64 < 2124 >;  }; /*  2. 278 MHz */
 
-		opp-384 { opp-hz = /bits/ 64 < 2929 >;  }; /*  3. 384 MHz */
+	opp-384 { opp-hz = /bits/ 64 < 2929 >;  }; /*  3. 384 MHz */
 
-		opp-422 { opp-hz = /bits/ 64 < 3222 >;  }; /*  4. 422 MHz */
+	opp-422 { opp-hz = /bits/ 64 < 3222 >;  }; /*  4. 422 MHz */
 
-		opp-556 { opp-hz = /bits/ 64 < 4248 >;  }; /*  5. 556 MHz */
+	opp-556 { opp-hz = /bits/ 64 < 4248 >;  }; /*  5. 556 MHz */
 
-		opp-672 { opp-hz = /bits/ 64 < 5126 >;  }; /*  6. 672 MHz */
+	opp-672 { opp-hz = /bits/ 64 < 5126 >;  }; /*  6. 672 MHz */
 
-		opp-768 { opp-hz = /bits/ 64 < 5859 >;  }; /*  7. 768 MHz */
+	opp-768 { opp-hz = /bits/ 64 < 5859 >;  }; /*  7. 768 MHz */
 
-		opp-806 { opp-hz = /bits/ 64 < 6152 >;  }; /*  8. 806 MHz */
+	opp-806 { opp-hz = /bits/ 64 < 6152 >;  }; /*  8. 806 MHz */
 
-		opp-844 { opp-hz = /bits/ 64 < 6445 >;  }; /*  9. 844 MHz */
+	opp-844 { opp-hz = /bits/ 64 < 6445 >;  }; /*  9. 844 MHz */
 
-		opp-931 { opp-hz = /bits/ 64 < 7104 >;  }; /* 10. 931 MHz */
+	opp-931 { opp-hz = /bits/ 64 < 7104 >;  }; /* 10. 931 MHz */
 
-		opp-1017 { opp-hz = /bits/ 64 < 7759 >;  }; /* 11. 1017 MHz */
+	opp-1017 { opp-hz = /bits/ 64 < 7759 >;  }; /* 11. 1017 MHz */
 
-		opp-1296 { opp-hz = /bits/ 64 < 9887 >;  }; /* 12. 1296 MHz */
+	opp-1296 { opp-hz = /bits/ 64 < 9887 >;  }; /* 12. 1296 MHz */
 
 };
 
