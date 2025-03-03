@@ -103,6 +103,10 @@
     	};
 };
 
+&wled {
+	qcom,cabc;
+};
+
 &pm8953_vadc {
 	/delete-node/ chan@13;
 };
