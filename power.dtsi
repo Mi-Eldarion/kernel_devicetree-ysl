@@ -104,8 +104,6 @@
 		  wled: qcom,leds@d800 {
 			/delete-property/ qcom,external-pfet;
 			qcom,cabc;
-			default-brightness = <1024>;
-			max-brightness = <2047>;
 		};
     };
 };
