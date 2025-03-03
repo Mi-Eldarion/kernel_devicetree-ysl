@@ -31,8 +31,8 @@
 
 /* msm-pmi8940 */
 &spmi_bus {
-            qcom,pmi8940@2 {  
-   			qpnp_smbcharger: qcom,qpnp-smbcharger {
+    qcom,pmi8940@2 {  
+   		qpnp_smbcharger: qcom,qpnp-smbcharger {
 			spmi-dev-container;
 			compatible = "qcom,qpnp-smbcharger-mi8953";
 			#address-cells = <1>;
@@ -48,7 +48,7 @@
 			
 			/delete-property/qcom,chg-inhibit-en;
 			/delete-property/ qcom,external-typec;
-         	/delete-property/ qcom,typec-psy-name;
+        	/delete-property/ qcom,typec-psy-name;
 			qcom,rparasitic-uohm = <100000>;
 			qcom,bms-psy-name = "bms";
 			qcom,thermal-mitigation = <2000 1000 800 500 200 0>;
@@ -67,10 +67,11 @@
 			/delete-property/qcom,fastchg-current-comp;
 			qcom,cool-xiaomi-bat-decidegc = <50>;
 			qcom,battery-data = <&mtp_batterydata>;
-	        qcom,chg-led-sw-controls;
-	        qcom,chg-led-support;
+	    	qcom,chg-led-sw-controls;
+	   		qcom,chg-led-support;
 		};
-		    qcom_fg: qcom,fg {
+	
+		qcom_fg: qcom,fg {
 			spmi-dev-container;
 			compatible = "qcom,qpnp-fg-mi8953";
 			#address-cells = <1>;
@@ -98,13 +99,8 @@
 			qcom,warm-bat-decidegc = <450>;
 			qcom,cool-bat-decidegc = <150>;
 			qcom,cold-bat-decidegc = <0>;
-          };
-		};
-         qcom,pmi8940@3 {		
-		  wled: qcom,leds@d800 {
-			qcom,en-cabc;
-		};
-    };
+    	};
+	};
 };
 
 &pm8953_vadc {
