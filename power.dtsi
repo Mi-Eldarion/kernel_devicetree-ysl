@@ -48,7 +48,7 @@
 			
 			/delete-property/qcom,chg-inhibit-en;
 			/delete-property/ qcom,external-typec;
-        	/delete-property/ qcom,typec-psy-name;
+        		/delete-property/ qcom,typec-psy-name;
 			qcom,rparasitic-uohm = <100000>;
 			qcom,bms-psy-name = "bms";
 			qcom,thermal-mitigation = <2000 1000 800 500 200 0>;
@@ -67,7 +67,7 @@
 			/delete-property/qcom,fastchg-current-comp;
 			qcom,cool-xiaomi-bat-decidegc = <50>;
 			qcom,battery-data = <&mtp_batterydata>;
-	    	qcom,chg-led-sw-controls;
+	    		qcom,chg-led-sw-controls;
 	   		qcom,chg-led-support;
 		};
 	
@@ -99,8 +99,8 @@
 			qcom,warm-bat-decidegc = <450>;
 			qcom,cool-bat-decidegc = <150>;
 			qcom,cold-bat-decidegc = <0>;
+    		};
     	};
-	};
 };
 
 &pm8953_vadc {
