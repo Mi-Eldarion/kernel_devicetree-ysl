@@ -102,7 +102,10 @@
 		};
          qcom,pmi8940@3 {		
 		  wled: qcom,leds@d800 {
-			qcom,en-cabc;
+			/delete-property/ qcom,external-pfet;
+			qcom,cabc;
+			default-brightness = <1024>;
+			max-brightness = <2047>;
 		};
     };
 };
