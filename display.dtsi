@@ -36,6 +36,7 @@
 };
 
 &mdss_dsi0 {
+	backlight = <&wled>;
 	qcom,dsi-pref-prim-pan = <&dsi_sc_ili9881c_hd720_video>;
 	lab-supply = <&lab_regulator>;
 	ibb-supply = <&ibb_regulator>;
