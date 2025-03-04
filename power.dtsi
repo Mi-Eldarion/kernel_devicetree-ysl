@@ -104,10 +104,7 @@
 };
 
 &wled {
-	/delete-property/ qcom,external-pfet;
 	qcom,cabc;
-	default-brightness = <1024>;
-	max-brightness = <2047>;
 };
 
 &pm8953_vadc {
