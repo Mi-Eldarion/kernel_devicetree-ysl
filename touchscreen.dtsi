@@ -56,7 +56,6 @@
 
 	focaltech@38{
 		compatible = "focaltech,fts_ts-mi8953";
-		focaltech,ic-type = <0x54460402>; // _FT5446
 		reg = <0x38>;
 		interrupt-parent = <&tlmm>;
 		interrupts = <65 0x2>;
